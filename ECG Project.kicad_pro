@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.4,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -520,9 +520,24 @@
         "microvia_drill": 0.1,
         "name": "9V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.6,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.1,
+        "diff_pair_width": 0.1,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Text",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
@@ -541,6 +556,10 @@
       {
         "netclass": "9V",
         "pattern": "-9V"
+      },
+      {
+        "netclass": "Text",
+        "pattern": "TEXT"
       }
     ]
   },
@@ -685,7 +704,7 @@
         "uuid": "b25dd311-7505-49a1-85e7-a6d1ec80d902"
       }
     ],
-    "used_designators": "U1-3,#PWR1-12,J1-2,R1-4,C1,Ci1,Cf1,Rg1,R'1",
+    "used_designators": "U1-4,#PWR1-12,J1-2,R1-4,C1,Ci1,Cf1,Rg1,R'1",
     "variants": []
   },
   "sheets": [
