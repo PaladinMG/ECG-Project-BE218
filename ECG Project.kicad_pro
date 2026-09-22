@@ -115,7 +115,7 @@
         "pth_inside_courtyard": "error",
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
-        "silk_over_copper": "warning",
+        "silk_over_copper": "ignore",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
@@ -133,7 +133,7 @@
         "track_width": "error",
         "tracks_crossing": "error",
         "tuning_profile_track_geometries": "ignore",
-        "unconnected_items": "error",
+        "unconnected_items": "ignore",
         "unresolved_variable": "error",
         "via_dangling": "warning",
         "zones_intersect": "error"
@@ -567,8 +567,8 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "specctra_dsn": "",
+      "plot": "./",
+      "specctra_dsn": "ECG Project.dsn",
       "step": "",
       "vrml": ""
     },

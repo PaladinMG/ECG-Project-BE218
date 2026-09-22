@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Single Use") (type "KiCad") (uri "${KIPRJMOD}/Single Use.pretty") (options "") (descr ""))
+)
